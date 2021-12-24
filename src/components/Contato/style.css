@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans&family=Roboto&display=swap');
+
+.contact_container {
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    position: relative;
+}
+
+.contact_photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.contact_photo-border {
+    border: 2px solid rgb(179, 179, 179);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.contact_infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: max-content;
+    height: 80%;
+}
+
+.name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
